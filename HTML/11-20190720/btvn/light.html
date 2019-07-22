@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
+</head>
+<body>
+    <img src="haha1.png" style ="width: 500px ;height: 500px"alt="asd" id="img">
+    
+        <script>
+                $(document).ready(function(){
+                    $("#doi").click(function(){
+                        if($("#img").attr('src')!='haha1.png'){
+                            $("#img").attr('src', 'haha1.png');
+                        }
+                        
+                        else 
+                        {
+                            $("#img").attr('src', 'haha2.png');
+                        }
+                    });
+                    });
+                
+                
+                </script>
+    <button id="doi">click me</buton>
+</body>
+</html>
