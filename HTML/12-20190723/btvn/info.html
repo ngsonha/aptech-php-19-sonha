@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./boostrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+        <button  onclick="loadDulieu()">click</button>
+        <script>
+            $(document).ready(function(){
+      $("#click").click(function(){
+        $("#content").slideToggle("slow");
+      });
+    });
+
+    
+
+function loadDulieu() {
+    
+    var http = new XMLHttpRequest();
+    http.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("id1").innerHTML =
+     this.responseText;
+    
+        
+}
+  };
+  http.open("GET","ajax_info.txt" , true);
+  http.send();
+}
+</script>
+               
+            </script>
+    <div class="album py-5 bg-light " >
+        <div class="container">
+            <div class="row my-3 ">
+                <div class="col-6">
+                    <div class="card w-100" style="border: 5px; border-color: black;" >
+
+                        <h5 id="id1"></h5>
+                        
+                        <p id="description"></p>
+                        <button style="width:100px; " id="click"> here </button>
+                        <label id="content">
+                            
+                                <form action="example.com\" method="POST\"><label for="username\">laboriosam</label><input type="text\" id="username\"><label for="password\">fugiat</label><input type="password\" id="password\"></form><a href="example.com\">Perferendis praesentium quo accusamus fuga.</a><ul><li>Autem dolorum.</li><li>Reprehenderit delectus.</li><li>Et consequatur.</li><li>Non minima reprehenderit.</li><li>Rerum eaque possimus voluptatem amet nobis.</li></ul>Voluptas ea quia.<span>Sequi.</span>
+                           
+                        </label>
+
+                        <p id="image_path:"></p>
+                        <img id="image_url">
+
+
+
+                        
+                    </div>
+
+                </div>
+            
+                
+                                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
