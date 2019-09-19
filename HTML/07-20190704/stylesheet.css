@@ -1,0 +1,88 @@
+div{
+    height:100px; 
+    display: flex;
+}
+@media only screen and (max-width: 1200px) {
+    .Anh-da-do{
+        background-color: green;
+        height:200px;
+        width: 400px;
+        margin-top:50px;
+        
+    
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .Anh-da-trang{
+        background-color:white;
+        height:200px;
+        width: 400px;
+        margin-top:50px;
+        
+    
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .Anh-da-xanh{
+        background-color:red;
+        height:200px;
+        width: 400px;
+        margin-top:50px;
+        
+    
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .Anh-da-do{
+        background-color: red;
+        height:200px;
+        width: 400px;
+        margin-top:50px;
+        
+    
+    }
+  }
+ 
+  @media only screen and (max-width: 768px) {
+    .Anh-da-xanh{
+        background-color:green;
+        height:200px;
+        width: 400px;
+        margin-top:50px;
+        
+    
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .Anh-da-vang{
+        background-color:red;
+        height:200px;
+        width: 1000px;
+        margin-top:50px;
+        
+    
+    }
+    .Anh-da-mau{
+        background-color:blueviolet;
+        height:200px;
+        width: 1000px;
+        margin-top:50px;
+        
+    
+    }
+}
+ 
+  @media only screen and (max-width: 1200px) {
+    .asd{
+        background-color:blue;
+        height:200px;
+        width: 1000px;
+        margin-top:50px;
+        
+    
+    }
+}
+
+  

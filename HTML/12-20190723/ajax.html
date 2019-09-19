@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2 id="demo" >ad</h2>
+<button id="" onclick="loadDulieu()">click</button>
+</div>
+
+<script>
+
+
+function loadDulieu() {
+  var http = new XMLHttpRequest();
+  http.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    document.getElementById("demo").innerHTML =
+     this.responseText;
+    }
+  };
+  http.open("GET","https://namcoi.com/projects/users-crud-laravel/public/api/users?fbclid=IwAR3tdAz0edhBHSD76CosyBeVHhuaElQBDIGrT0yzAUi9D0ZH8RYvgl3bdaE" , true);
+  http.send();
+}
+</script>
+
+</body>
+</html>

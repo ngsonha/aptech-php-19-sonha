@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <h1 id="loichao">
+        hello world
+    </h1>
+    <h1 id="goodbye">
+        asdasd
+
+    </h1>
+    <p id="ten"></p>
+    <script>
+        //console.log(5+6);
+        //console.log('5'+6);
+        //console.log(5+'6'+4);
+
+        function Tinhtong()
+        {
+            var tong= 5+6;
+            return tong;
+        }
+        
+
+        function quetnha()
+        {   
+            
+            hello();
+            console.log('quetnha');
+        }
+
+        function hello()
+        {
+            console.log('hello');
+        }
+
+        function Doichu()
+        {
+            document.getElementById('loichao').innerHTML="hellomotherfucker";
+        }
+
+        function Chuyenten()
+        {
+            document.getElementById('ten').innerHTML='ngsonha!@#$%^&**';
+        }
+
+
+        document.getElementById('ten').innerHTML="ngsonha";
+        document.getElementById('loichao').innerHTML='hihi';
+        document.getElementById('goodbye').innerHTML="hehe";
+
+
+        var a='ha';
+        console.log('ha'); 
+        console.log(a+ 'hellofriend');
+        
+        
+    </script>
+
+    <button onclick="Chuyenten();">ten</button>
+
+    
+    <button onclick="quetnha();">
+        click
+    </button>
+
+    <button onclick="Doichu();">
+            change
+        </button>
+
+    <button type="button" onclick="document.getElementById('haha').innerHTML=Date()">date</button>
+    <p id="haha">xem !!!! </p>
+
+</body>
+</html>
