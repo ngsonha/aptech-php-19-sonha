@@ -13,7 +13,7 @@ $sql = "SELECT * FROM user limit 3";
 $result =$conn->query($sql);
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-    echo " id: " . $row["id"] . " - email : " . $row["email"] . " - password : " . $row["password"] . "<br>";
+    echo " " . $row["id"] . " " . $row["email"] . " " . $row["password"] . "<br>";
     }
     } else {
     echo "0 results";

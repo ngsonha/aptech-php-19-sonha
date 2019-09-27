@@ -22,6 +22,8 @@
           </div>
 
           <input class="btn btn-primary form-control" type="submit" value="Sign in">
+          <a class="text-left" href="" >Dang ki</a>
+
         </form>
         <p class="mt-5 text-muted">© 2017-2019</p>
       </div>
