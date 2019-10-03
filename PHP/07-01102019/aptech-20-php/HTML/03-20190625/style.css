@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+}
+
+#mot{
+    display :flex;
+    
+    background-color: brown;
+}
+#hai {
+    background-color: yellow;
+    
+}
+
+#bar{
+    display: flex;
+    background-color:purple;
+}
+
+#bon{
+    display: flex;
+    background-color:green;
+}

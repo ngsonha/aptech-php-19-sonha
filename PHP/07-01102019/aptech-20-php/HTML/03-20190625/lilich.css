@@ -1,0 +1,56 @@
+.ogiua{
+    color :white;
+    background-color:brown;
+    text-align: center;
+}
+.one{
+    border-style:double; 
+   
+}
+.red{
+    color:brown;
+}
+.black{
+    color:black;
+}
+.size
+{
+    font-size: 20px;
+}
+.huong{
+    color:green;
+}
+.background{
+    background-color:aqua;
+   
+}
+#div{
+    height: 1000px;
+    
+}
+#mot{
+    background-color: aqua;
+}
+
+#style1{
+    height: 250px;width: 100%px;background: green;
+    display: flex;
+}
+.hehe1{
+    color :purple;
+    
+    text-align: center;
+}
+#hai{
+    height :450px;
+    width: 100%;
+    background: orange;
+}
+#bar{
+     height :150px;
+        width: 100%;
+        background: orange;
+        
+
+
+}

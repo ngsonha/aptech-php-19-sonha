@@ -8,10 +8,15 @@
 </head>
 <body>
     <?php
-    echo "<a href=\"./\">BACK</a>";
-    echo "<h1>Hello PHP</h1>";
-    echo "Nguyen Son Ha <br>";
-    echo "Do homework of Mr.Nam"; 
+
+    //có 2 xuất ra màn hình 1 là dùng echo 2 là dùng print
+
+    echo "<h1>3. DISPLAY TO HTML</h1>";
+
+    echo "<h2>try 1 <br></h2>";
+    print "<h2>try 2</h2>";
+
+    // N.S.H - làm echo
     ?>
 </body>
 </html>

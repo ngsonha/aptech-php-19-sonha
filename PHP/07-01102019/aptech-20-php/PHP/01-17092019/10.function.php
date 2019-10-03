@@ -7,11 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    echo "<a href=\"./\">BACK</a>";
-    echo "<h1>Hello PHP</h1>";
-    echo "Nguyen Son Ha <br>";
-    echo "Do homework of Mr.Nam"; 
-    ?>
+<?php 
+function info($name="sonha",$class="PHP"){
+    echo "ten minh la $name va minh hoc lop $class";
+}
+info();
+
+
+
+
+
+?>
 </body>
 </html>

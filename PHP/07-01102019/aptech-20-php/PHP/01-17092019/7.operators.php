@@ -8,10 +8,8 @@
 </head>
 <body>
     <?php
-    echo "<a href=\"./\">BACK</a>";
-    echo "<h1>Hello PHP</h1>";
-    echo "Nguyen Son Ha <br>";
-    echo "Do homework of Mr.Nam"; 
+    echo "<a href=\"./\">back</a>";
+    //đã seen trên w3.school
     ?>
 </body>
 </html>

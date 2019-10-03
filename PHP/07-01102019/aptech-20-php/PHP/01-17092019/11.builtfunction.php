@@ -8,10 +8,12 @@
 </head>
 <body>
     <?php
-    echo "<a href=\"./\">BACK</a>";
-    echo "<h1>Hello PHP</h1>";
-    echo "Nguyen Son Ha <br>";
-    echo "Do homework of Mr.Nam"; 
+    //sap xep mang
+    $mang =[12,34,2,35,124,6];
+    sort($mang);
+    print_r($mang);    
+    
+    
     ?>
 </body>
 </html>

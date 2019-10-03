@@ -1,0 +1,37 @@
+div{
+    
+    height :100px;
+   
+}
+#mot{
+    
+    margin: 40px;
+    display:flex;
+    background-color:yellow;
+
+}
+
+#hai{
+    margin: 40px;
+    display :flex;
+    background-color:gray;
+    height:200px;
+}
+#bar{
+    margin:20px;
+    background-color: gray;
+    height:120px
+}
+#gg{
+    display :flex;
+}
+
+#bon{
+    margin:40px;
+    display: flex;
+    background-color: blue;
+    height: 50px;
+}
+.border{
+    border-style: solid white;
+}

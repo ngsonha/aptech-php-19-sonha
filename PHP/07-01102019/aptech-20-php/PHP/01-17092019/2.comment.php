@@ -8,10 +8,13 @@
 </head>
 <body>
     <?php
-    echo "<a href=\"./\">BACK</a>";
-    echo "<h1>Hello PHP</h1>";
-    echo "Nguyen Son Ha <br>";
-    echo "Do homework of Mr.Nam"; 
-    ?>
+echo "<a href=\"./\">BACK</a><br>";
+echo "<h1>comment câu lệnh</h1>";
+/*cmt nè : đây là thẻ a  */
+//cmt cách này cũng dc
+#hay là như này 
+
+/*Nguyễn Sơn Hà - Đang làm cmt*/
+?>
 </body>
 </html>
