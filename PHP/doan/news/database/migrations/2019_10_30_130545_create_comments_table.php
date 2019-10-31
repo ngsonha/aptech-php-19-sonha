@@ -17,11 +17,11 @@ class CreateCommentsTable extends Migration
             $table->increments('id');
             $table->string('content');
 
-            $table->unsignedInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            // $table->unsignedInteger('user_id');
+            // $table->foreign('user_id')->references('id')->on('users');
             
-             $table->unsignedInteger('post_id');
-             $table->foreign('post_id')->references('id')->on('posts');
+            //  $table->unsignedInteger('post_id');
+            //  $table->foreign('post_id')->references('id')->on('posts');
             $table->timestamps();
         });
     }

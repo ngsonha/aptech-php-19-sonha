@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProfilesTable extends Migration
+class ThemCotUserIdVaoBangProfiles extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,9 @@ class CreateProfilesTable extends Migration
      */
     public function up()
     {
-        Schema::create('profiles', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name');
-            $table->date('birthday');
-            $table->string('address');
-            // $table->unsignedInteger('user_id');
-            // $table->foreign('user_id')->references('id')->on('users');
-            $table->timestamps();
+        Schema::table('profiles', function (Blueprint $table) {
+            $table->unsignedInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
@@ -34,6 +29,5 @@ class CreateProfilesTable extends Migration
         Schema::table('profiles', function (Blueprint $table) {
             //
         });
-        
     }
 }
